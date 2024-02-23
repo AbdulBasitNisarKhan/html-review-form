@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Form</title>
+</head>
+
+<body>
+    <form action="#">
+        <h1>Review Form for product</h1>
+        <fieldset>
+            <legend>Your Personal Details</legend>
+            <label for="Name">Name: </label> <br>
+            <input type="text" name="Name" required="required"> <br>
+            <label for="email">Email: </label> <br>
+            <input type="email" name="email" required=" required">
+
+        </fieldset>
+        <fieldset>
+            <legend>Your Review</legend>
+            <label for="dropdown"> How did you hear about us: </label>
+            <select id="dropdown" name="dropdown">
+                <option value="Social Media"> Social Media</option>
+                <option value="news paper">News paper</option>
+                <option value="Tv">Tv</option>
+            </select><br>
+            <label for="radio">Would you visit again?</label> <br>
+            <input type="radio" name="visit" value="yes">
+            <label for="visit"> Yes</label>
+            <input type="radio" name="visit" value="no">
+            <label for="visit"> No</label>
+            <input type="radio" name="visit" value="May be">
+            <label for="visit"> May be</label>
+            <br>
+            <label for="mytextarea"> Comments..</label> <br>
+            <textarea id="myTextarea" name="myTextarea" rows="4" cols="50">
+                comments...
+              </textarea> <br>
+            <!-- <label for="sign up">Sign me up for email addresses:</label> -->
+            <input type="checkbox" id="subscribe" name="signup " value="yes" checked>
+            <label for="sign up">Sign me up for email addresses:</label> <br>
+            <input type="submit" value="Submit"><br>
+
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
